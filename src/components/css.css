@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Recoleta";
+  src: url("/public/fonts/Recoleta-Bold.ttf");
+}
+
+@font-face {
+  font-family: "VulfMono";
+  src: url("/public/fonts/VulfSansDemo-Regular.otf");
+}
+
+.recoleta {
+  font-family: "Recoleta" !important;
+}
+
+.vulfmono {
+  font-family: "VulfMono" !important;
+}
+
+#map {
+  height: 346px;
+  width: 100%;
+  border-radius: 20px;
+}
