@@ -29,7 +29,7 @@ export default function Step() {
         display="flex"
         alignItems="center"
         justifyContent="center"
-        mr={!isDesktop && 45}
+        ml={!isDesktop && 45}
       >
         <Box
           display="flex"
