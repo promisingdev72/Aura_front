@@ -36,13 +36,16 @@ export default function Step() {
           flexDirection="column"
           justifyContent="center"
           alignItems="center"
+          position="relative"
         >
           <Box component="img" src="/images/step11.png" />
-          {/* <Box
+          <Box
             display="flex"
             alignItems="center"
             justifyContent="center"
             flexDirection="column"
+            position="absolute"
+            sx={{ bottom: "-40px", left: "-50px", width: "150px" }}
           >
             <Typography fontSize="12px" className="VulfMono" color="#333333">
               Confirmed
@@ -54,7 +57,7 @@ export default function Step() {
             >
               June 3
             </Typography>
-          </Box> */}
+          </Box>
         </Box>
         <StepLine1 />
         <Box
@@ -62,13 +65,16 @@ export default function Step() {
           flexDirection="column"
           justifyContent="center"
           alignItems="center"
+          position="relative"
         >
           <Box component="img" src="/images/step2.png" />
-          {/* <Box
+          <Box
             display="flex"
             alignItems="center"
             justifyContent="center"
             flexDirection="column"
+            position="absolute"
+            sx={{ bottom: "-40px", left: "-50px", width: "150px" }}
           >
             <Typography fontSize="12px" className="VulfMono" color="#333333">
               On its way
@@ -80,26 +86,29 @@ export default function Step() {
             >
               June 13
             </Typography>
-          </Box> */}
+          </Box>
         </Box>
-        {isDesktop ? <StepLine2 /> : <StepLine1 />}
+        {isDesktop ? <StepLine2 /> : <StepLine2 />}
         <Box
           display="flex"
           flexDirection="column"
           justifyContent="center"
           alignItems="center"
+          position="relative"
         >
           <Box component="img" src="/images/step3.png" />
-          {/* <Box
+          <Box
             display="flex"
             alignItems="center"
             justifyContent="center"
             flexDirection="column"
+            position="absolute"
+            sx={{ bottom: "-25px", left: "-50px", width: "150px" }}
           >
             <Typography fontSize="12px" className="VulfMono" color="#333333">
               Out for delivery
             </Typography>
-          </Box> */}
+          </Box>
         </Box>
         <StepLine2 />
         <Box
@@ -107,20 +116,91 @@ export default function Step() {
           flexDirection="column"
           justifyContent="center"
           alignItems="center"
+          position="relative"
         >
           <Box component="img" src="/images/step4.png" />
-          {/* <Box
+          <Box
             display="flex"
             alignItems="center"
             justifyContent="center"
             flexDirection="column"
+            position="absolute"
+            sx={{ bottom: "-25px", left: "-50px", width: "150px" }}
           >
             <Typography fontSize="12px" className="VulfMono" color="#333333">
               Delivered
             </Typography>
-          </Box> */}
+          </Box>
         </Box>
       </Box>
+      {/* {isDesktop && (
+        <Box
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
+          width="100%"
+        >
+          <Box
+            display="flex"
+            flexDirection="column"
+            justifyContent="center"
+            alignItems="center"
+          >
+            <Typography fontSize="12px" className="VulfMono" color="#333333">
+              Confirmed
+            </Typography>
+            <Typography
+              fontSize="12px"
+              className="VulfMono"
+              color="rgba(51, 51, 51, 0.5)"
+            >
+              June 3
+            </Typography>
+          </Box>
+          <Box width="305px" />
+          <Box
+            display="flex"
+            flexDirection="column"
+            justifyContent="center"
+            alignItems="center"
+          >
+            <Typography fontSize="12px" className="VulfMono" color="#333333">
+              On its way
+            </Typography>
+            <Typography
+              fontSize="12px"
+              className="VulfMono"
+              color="rgba(51, 51, 51, 0.5)"
+            >
+              June 13
+            </Typography>
+          </Box>
+          <Box width="305px" />
+
+          <Box
+            display="flex"
+            flexDirection="column"
+            justifyContent="center"
+            alignItems="center"
+          >
+            <Typography fontSize="12px" className="VulfMono" color="#333333">
+              Out for delivery
+            </Typography>
+          </Box>
+          <Box width="305px" />
+
+          <Box
+            display="flex"
+            flexDirection="column"
+            justifyContent="center"
+            alignItems="center"
+          >
+            <Typography fontSize="12px" className="VulfMono" color="#333333">
+              Delivered
+            </Typography>
+          </Box>
+        </Box>
+      )} */}
     </>
   );
 }
