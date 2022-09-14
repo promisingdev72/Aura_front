@@ -9,7 +9,6 @@ const StepLine1 = styled("div")(() => ({
   width: "305px",
   background:
     "linear-gradient(90deg, #4B355A 2.57%, #3784AB 25.48%, #40C397 51.66%, #F0E681 74.93%, #EB4949 99.48%)",
-  // marginBottom: "25px",
 }));
 
 const StepLine2 = styled("div")(() => ({

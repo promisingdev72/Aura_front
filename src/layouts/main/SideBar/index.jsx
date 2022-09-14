@@ -98,12 +98,7 @@ export default function SideBarDrawer() {
             key={index}
           >
             <Box display="flex" alignItems="center">
-              <Box
-                component="img"
-                src={item.imgUrl}
-                mr="20px"
-                width={!isDesktop && "35px"}
-              />
+              <Box component="img" src={item.imgUrl} mr="20px" />
               <Box>
                 <Typography
                   fontSize={isDesktop ? "12px" : "10px"}
