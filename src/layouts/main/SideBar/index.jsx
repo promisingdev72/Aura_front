@@ -14,14 +14,14 @@ export default function SideBarDrawer() {
       brandName: "Brand name",
       itemName: "Item name",
       time: "Return Policy 14 days unworn, unused",
-      price: "$150",
+      price: "$150.00",
     },
     {
       imgUrl: "/images/avatar2.png",
       brandName: "Brand name",
       itemName: "Item name",
       time: "Return Policy 14 days unworn, unused",
-      price: "$150",
+      price: "$150.00",
     },
   ];
 
@@ -207,7 +207,7 @@ export default function SideBarDrawer() {
           color="#333333"
           className="recoleta"
         >
-          $320
+          $320.00
         </Typography>
       </Box>
       <Box
