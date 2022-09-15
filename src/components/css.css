@@ -4,7 +4,7 @@
 }
 
 @font-face {
-  font-family: "VulfMono";
+  font-family: "Vulf Sans Demo";
   src: url("/public/fonts/VulfSansDemo-Regular.otf");
 }
 
@@ -13,7 +13,7 @@
 }
 
 .vulfmono {
-  font-family: "VulfMono" !important;
+  font-family: "Vulf Sans Demo" !important;
 }
 
 #map {
