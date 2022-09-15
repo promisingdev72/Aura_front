@@ -153,7 +153,7 @@ export default function SideBarDrawer() {
             color="#333333"
             className="recoleta"
           >
-            $300
+            $300.00
           </Typography>
         </Box>
         <Box display="flex" justifyContent="space-between">
