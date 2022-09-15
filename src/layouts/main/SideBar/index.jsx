@@ -217,7 +217,6 @@ export default function SideBarDrawer() {
           right: "8px",
           left: "8px",
           transition: "600ms",
-          // transform: `translateY(${transHeight}px)`,
           transform: transHeight,
         }}
       >
