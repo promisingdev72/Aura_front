@@ -1,9 +1,17 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Box, Typography, Drawer, Button, Divider } from "@mui/material";
+import { getOrderDetails } from "../../../hook/firebase";
 
 import { useMediaQuery } from "react-responsive";
 
 export default function SideBarDrawer() {
+  const shipOrderId = "8b840dba3db24bc0bd11124931e5e290";
+  useEffect(() => {
+    getOrderDetails(shipOrderId).then((order) => {
+      console.log("order", order);
+    });
+  }, []);
+
   const isDesktop = useMediaQuery({
     query: "(min-width: 1024px)",
   });
