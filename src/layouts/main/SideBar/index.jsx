@@ -257,7 +257,7 @@ export default function SideBarDrawer() {
               </Typography>
             </Box>
           </legend>
-          <Box display="flex">
+          <Box display="flex" justifyContent="space-evenly">
             <Box>
               <Typography
                 fontSize={isDesktop ? "12px" : "10px"}
