@@ -19,11 +19,11 @@ if (getApps().length === 0) {
 
 const fns = getFunctions();
 
-export const getOrderDetails = async (shipOrderId) => {
+export const getOrderDetails = async (shippoOrderId) => {
   const fn = httpsCallable(fns, "getShippoOrder");
 
   const { data } = await fn({
-    shipOrderId,
+    shippoOrderId,
     isTestMode: true,
   });
   return data;

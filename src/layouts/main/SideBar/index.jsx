@@ -5,9 +5,9 @@ import { getOrderDetails } from "../../../hook/firebase";
 import { useMediaQuery } from "react-responsive";
 
 export default function SideBarDrawer() {
-  const shipOrderId = "8b840dba3db24bc0bd11124931e5e290";
+  const shippoOrderId = "8b840dba3db24bc0bd11124931e5e290";
   useEffect(() => {
-    getOrderDetails(shipOrderId).then((order) => {
+    getOrderDetails(shippoOrderId).then((order) => {
       console.log("order", order);
     });
   }, []);
@@ -289,6 +289,7 @@ export default function SideBarDrawer() {
                 color="#333333"
                 className="VulfMono"
                 mb="25px"
+                width="200px"
               >
                 Stedman Cleveland 4523 Woodman Avenue Apt 105 Sherman Oaks, CA
                 91423
@@ -341,6 +342,7 @@ export default function SideBarDrawer() {
                 color="#333333"
                 className="VulfMono"
                 mb="25px"
+                width="200px"
               >
                 Stedman Cleveland 4523 Woodman Avenue Apt 105 Sherman Oaks, CA
                 91423
