@@ -289,7 +289,7 @@ export default function SideBarDrawer() {
                 color="#333333"
                 className="VulfMono"
                 mb="25px"
-                width="200px"
+                width={isDesktop ? "200px" : "100%"}
               >
                 Stedman Cleveland 4523 Woodman Avenue Apt 105 Sherman Oaks, CA
                 91423
@@ -342,7 +342,7 @@ export default function SideBarDrawer() {
                 color="#333333"
                 className="VulfMono"
                 mb="25px"
-                width="200px"
+                width={isDesktop ? "200px" : "100%"}
               >
                 Stedman Cleveland 4523 Woodman Avenue Apt 105 Sherman Oaks, CA
                 91423
